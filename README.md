@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <SDL.h>
 #include <SDL_image.h>
-
 int main(int argc, char* argv[]) {
     // SDL 초기화
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
